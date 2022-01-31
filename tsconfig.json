@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es6", "DOM"],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "noImplicitReturns": true,
+    "jsx": "react",
+    "strict": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "typeRoots": ["./node_modules/@types", "./node_modules/@figma"]
+  },
+  "files": ["figma.d.ts"],
+  "exclude": ["node_modules"]
+}

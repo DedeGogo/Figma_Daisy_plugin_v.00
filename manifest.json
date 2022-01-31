@@ -1,0 +1,10 @@
+{
+    "name": "Daisy-oauth-test",
+    "id": "1064429508101340481",
+    "api": "1.0.0",
+    "main": "dist/code.js",
+    "ui": "dist/ui.html",
+    "enablePrivatePluginApi": true,
+    "editorType": ["figma"],
+    "permissions": ["currentuser"]
+}
