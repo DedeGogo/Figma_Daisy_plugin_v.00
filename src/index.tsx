@@ -1,16 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import { SelectAccount } from "./components/SelectAccount";
+import { render } from "react-dom";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
 
-function App() {
-  // onload:
-  // send msg to plugin, recover figma object
-  // pass object as props to SelectAccount
-  return (
-    <div>
-      <SelectAccount />
-    </div>
-  );
-}
-
-ReactDOM.render(<App />, document.getElementById("figma-react-template"));
+const rootElement = document.getElementById("app");
+render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  rootElement
+);

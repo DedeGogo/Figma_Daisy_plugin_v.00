@@ -1,6 +1,6 @@
 figma.showUI(__html__, {
-  width: 476,
-  height: 375,
+  width: 600,
+  height: 800,
   title: "Daisy Project Dev Instance",
 });
 
